@@ -60,7 +60,7 @@ nav a:hover {
 
 /* Branding Specific Hero */
 .branding-hero {
-    background-image: url('/img/background.jpg');
+    background-image: url('img/background.jpg');
 }
 
 /* Portfolio Section */
