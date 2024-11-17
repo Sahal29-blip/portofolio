@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #0d0d0d;
+  color: #fff;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+header img {
+  width: 50px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s ease; /* Menambahkan transisi untuk perubahan warna */
+}
+
+/* Efek hover ketika mouse berada di atas item navbar */
+nav a:hover {
+  color: #e63946; /* Warna merah */
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.hero img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.hero-text a {
+  background-color: #e63946;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero-text-container {
+  position: relative;
+  display: inline-block;
+}
+
+.hero-image {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-image-container::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 350px;
+  background-color: #e63946;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  text-align: center; /* Menambahkan ini untuk memusatkan teks */
+}
+
+.services .service {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center; /* Memastikan teks dan ikon berada di tengah */
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services .service a {
+  font-size: 16px;
+  color: #e63946;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.services .service a i {
+  margin-left: 8px; /* Memberi jarak antara teks dan panah */
+  font-size: 18px;
+}
+
+/* Hover effect untuk memperjelas interaksi */
+.services .service a:hover {
+  color: #f1faee;
+}
+
+.services .service a:hover i {
+  transform: translateX(5px); /* Panah bergerak ke kanan saat hover */
+}
+
+
+
+.services .service:nth-child(2) {
+  background-color: #e63946;
+}
+
+/* Untuk Know More yang ada di tengah */
+.services .service:nth-child(2) a {
+  color: white; /* Mengubah warna teks menjadi putih */
+}
+
+/* Hover effect untuk memberikan interaksi */
+.services .service:nth-child(2) a:hover {
+  color: #f1faee; /* Mengubah warna saat hover */
+}
+
+.services .service h3 {
+  margin: 20px 0;
+}
+
+.services .service p {
+  color: #fff;
+}
+
+footer {
+  text-align: center; /* Pusatkan semua teks di dalam footer */
+  padding: 20px 0;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: center; /* Ikon berada di tengah horizontal */
+  margin-top: 20px; /* Tambahkan jarak ke elemen di atas */
+}
+
+.social-icon:hover {
+  color: #e63946; /* Mengubah warna ikon menjadi hijau ketika hover */
+}
+
+footer .social-icons a {
+  margin: 0 10px; /* Memberi jarak antar ikon */
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px; /* Ukuran ikon */
+}
+
+footer p {
+  margin-top: 15px; /* Jarak antara sosial media dengan teks */
+  font-size: 14px; /* Ukuran teks */
+  color: #b3b3b3; /* Warna teks */
+}
+

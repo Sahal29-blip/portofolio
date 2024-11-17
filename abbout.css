@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d0d0d;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.about-content {
+    flex: 1;
+    text-align: left;
+}
+
+.about-content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.mission-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.mission-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.mission-section p {
+    font-size: 1.2rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-media {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #e63946; /* Mengubah warna ikon menjadi hijau ketika hover */
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content, .about-image {
+        flex: 1 1 100%;
+    }
+}

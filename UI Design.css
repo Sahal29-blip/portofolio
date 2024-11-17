@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0d0d0d;
+    color: #fff;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  header img {
+    width: 50px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #e63946;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+  }
+  
+  .hero img {
+    width: 400px;
+    border-radius: 10px;
+  }
+  
+  .hero-text {
+    max-width: 500px;
+  }
+  
+  .hero-text h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  .hero-text p {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  /* Details Section */
+  .details {
+    padding: 50px 0;
+  }
+  
+  .details h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .details p {
+    text-align: center;
+    color: #b3b3b3;
+    font-size: 18px;
+  }
+  
+  .benefits-list {
+    margin: 20px auto;
+    padding: 0;
+    list-style: none;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .benefits-list li {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .benefits-list li i {
+    color: #e63946;
+    margin-right: 10px;
+  }
+  
+  /* Gallery Section */
+  .gallery {
+    padding: 50px 0;
+  }
+  
+  .gallery h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .gallery-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .gallery-item {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .gallery-item p {
+    color: #b3b3b3;
+  }
+  
+  /* Contact Section */
+  .contact {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+  }
+  
+  .contact a {
+    background-color: #e63946;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
